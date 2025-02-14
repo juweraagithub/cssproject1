@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    font-family: 'Playfair Display';
+}
+.container{
+    background-image: url('tinker.jpg');
+    background-size: cover;
+    color: white;
+    width:100%;
+}
+.nav-bar{
+    display: flex;
+    font-size: small;
+    margin-top: 8px;
+    width:100%; 
+}
+.first-title{
+    color:orange;
+    font-size: 25px;
+    width:5%;
+    padding-left: 5%;
+}
+.second-title{
+    font-size: 15px;
+    color:white;
+    width:10%;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.unordered-list{
+    margin-top: 15px;
+    margin-left: 45%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    width:85%;
+}
+.main{
+    color:white;
+    margin-top:25%;
+    text-align: center;
+    font-size: 17px;
+    font-family: serif;
+}
+.logoname{
+    color:orange;
+    font-family: 'Playfair Display', serif;
+}
+.secondlogoname{
+    color:lightseagreen;
+    font-family: 'Playfair Display', serif;
+}
+.description{
+    margin-top: 15px;
+}
+.button{
+    border-radius: 25px;
+    border:1px solid black;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: -8%;
+    padding: 15px;
+}
+.button:hover{
+    background-color:blanchedalmond;
+}
